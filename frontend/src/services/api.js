@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Support both Vite (VITE_) and Create React App (REACT_APP_) environment variables
-const API_BASE_URL = process.env.VITE_BACKEND_URL || process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
+// Use Create React App environment variable
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
