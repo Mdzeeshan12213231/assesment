@@ -18,9 +18,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "VITE_BACKEND_URL": "@vite_backend_url",
-    "REACT_APP_API_URL": "@react_app_api_url"
-  }
+  ]
 }
